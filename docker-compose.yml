@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  reabbitmq:
+    image: rabbitmq
+    ports:
+      - "5672:5672"
+    hostname: my-rabbit
+    container_name: "some-rabbit"
